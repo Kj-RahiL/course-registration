@@ -11,7 +11,7 @@
         "id": 2,
         "cover_img": "../src/assets/image/Rectangle 2-3.png",
         "course_name": "Introduction to Algorithms",
-        "details": "A set of instruction for solving a problem or accomplishing a task",
+        "details": "An algorithm is a finite set of instructions carried out in a specific order to perform a particular task",
         "price": 59.99,
         "credit": 4
     },
