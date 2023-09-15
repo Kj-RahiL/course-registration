@@ -8,8 +8,8 @@ const Course = ({ course, handleSelect }) => {
     const { course_name, cover_img, details, price, credit } = course
     // console.log(course)
     return (
-        <div className='p-4 bg-white rounded-lg'>
-            <img className=' w-60 h-36 mb-2' src={cover_img} alt="" />
+        <div className='p-4 bg-white rounded-lg mx-auto'>
+            <img className=' w-full h-36 mb-2' src={cover_img} alt="" />
             <h2 className=' text-base font-bold py-2'>{course_name}</h2>
             <p className=' text-sm text-gray-500'>{details}</p>
             <div className=' flex justify-between text-gray-500 my-4'>

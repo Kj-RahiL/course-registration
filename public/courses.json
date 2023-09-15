@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "cover_img": "../src/assets/image/Rectangle 2-2.png",
+        "cover_img": "https://i.ibb.co/5TH0ShC/Rectangle-2-2.png",
         "course_name": "Introduction to C Programming",
         "details": "Learn the basics of programming with this beginner-friendly course.",
         "price": 50,
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "cover_img": "../src/assets/image/Rectangle 2-3.png",
+        "cover_img": "https://i.ibb.co/bmZ4t1F/Rectangle-2-3.png",
         "course_name": "Introduction to Algorithms",
         "details": "An algorithm is a finite set of instructions carried out in a specific order to perform a particular task",
         "price": 59.99 ,
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "cover_img": "../src/assets/image/Rectangle 2-4.png",
+        "cover_img": "https://i.ibb.co/Q8SVrHC/Rectangle-2-4.png",
         "course_name": "C++ Programming Fundamentals",
         "details": "Get a solid foundation in C++ programming.",
         "price": 55,
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "cover_img": "../src/assets/image/Rectangle 3.png",
+        "cover_img": "https://i.ibb.co/GMdLJY3/Rectangle-3.png",
         "course_name": "Basic Data Structures",
         "details": "Learn data analysis techniques and using programming language.",
         "price": 70,
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "cover_img": "../src/assets/image/Rectangle 2.png",
+        "cover_img": "https://i.ibb.co/y8vRdNb/Rectangle-2.png",
         "course_name": "Machine Learning in Python",
         "details": "Dive into machine learning using Python.",
         "price": 110,
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "cover_img": "../src/assets/image/Rectangle 2-5.png",
+        "cover_img": "https://i.ibb.co/XDhtyzh/Rectangle-2-5.png",
         "course_name": "Software Engineering",
         "details": "Become a software development and build applications.",
         "price": 80,
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "cover_img": "../src/assets/image/Rectangle 2-6.png",
+        "cover_img": "https://i.ibb.co/sVbjYKG/Rectangle-2-6.png",
         "course_name": "Problem-Solving Part",
         "details": "Create iOS apps with the Swift programming language.",
         "price": 70,
@@ -57,7 +57,7 @@
     },
     {
         "id": 8,
-        "cover_img": "../src/assets/image/Rectangle 3-1.png",
+        "cover_img": "https://i.ibb.co/mNc5Vtz/Rectangle-3-1.png",
         "course_name": "AWS, Cloud Computing",
         "details": "It is a long established fact that a reader will be distracted.",
         "price": 64.99,
@@ -65,7 +65,7 @@
     },
     {
         "id": 9,
-        "cover_img": "../src/assets/image/Rectangle 2-6.png",
+        "cover_img": "https://i.ibb.co/dtx43w7/Rectangle-2-1.png",
         "course_name": "Database (MySQL)",
         "details": "Create your own games with Unity game engine.",
         "price": 59.99,

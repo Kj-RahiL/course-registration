@@ -6,7 +6,7 @@ const CourseLists = ({ courseList, totalPrice, credit, creditRemaining }) => {
     
     // console.log(courseList)
     return (
-        <div className='w-1/4 ml-5'>
+        <div className='md:w-1/2 lg:w-1/4 md:ml-5'>
             <div className=' bg-white rounded-lg p-4'>
                 <div >
                     <h2 className=' text-lg font-semibold text-[#2F80ED]'>Credit Hour Remaining {creditRemaining} hr</h2>
