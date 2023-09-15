@@ -28,7 +28,7 @@ const Courses = ({handleSelect}) => {
 };
 
 Courses.propTypes = {
-
+    handleSelect: PropTypes.func
 };
 
 export default Courses;

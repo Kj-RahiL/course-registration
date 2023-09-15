@@ -2,13 +2,14 @@
 import PropTypes from 'prop-types';
 
 
-const CourseLists = ({ courseList }) => {
+const CourseLists = ({ courseList, totalPrice, credit, creditRemaining }) => {
+    
     // console.log(courseList)
     return (
         <div className='w-1/4 ml-5'>
-            <div className=' bg-white rounded-lg p-5'>
+            <div className=' bg-white rounded-lg p-4'>
                 <div >
-                    <h2 className=' text-lg font-semibold text-[#2F80ED]'>Credit Hour Remaining 7 hr</h2>
+                    <h2 className=' text-lg font-semibold text-[#2F80ED]'>Credit Hour Remaining {creditRemaining} hr</h2>
                     <hr className='border my-4' />
                 </div>
                 <div>
@@ -23,11 +24,11 @@ const CourseLists = ({ courseList }) => {
                     <hr className='border my-4' />
                 </div>
                 <div>
-                    <h2 className=' font-semibold text-gray-500'>Total Credit Hour : 13</h2>
+                    <h2 className=' font-semibold text-gray-500'>Total Credit Hour : {credit}</h2>
                     <hr className='border my-4' />
                 </div>
                 <div>
-                    <h2 className=' font-semibold text-gray-500'>Total Price : 48000 USD</h2>
+                    <h2 className=' font-semibold text-gray-500'>Total Price : {totalPrice.toFixed(2)} USD</h2>
                     <hr className='border my-4' />
                 </div>
 
@@ -37,7 +38,10 @@ const CourseLists = ({ courseList }) => {
 };
 
 CourseLists.propTypes = {
-    courseList: PropTypes.array
+    courseList: PropTypes.array,
+    totalPrice: PropTypes.number,
+    credit: PropTypes.number,
+    creditRemaining: PropTypes.number
 };
 
 export default CourseLists;

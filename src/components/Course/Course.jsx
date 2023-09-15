@@ -26,6 +26,7 @@ const Course = ({ course, handleSelect }) => {
 
 Course.propTypes = {
     course: PropTypes.object.isRequired
+    handleSelect: PropTypes.func
 };
 
 export default Course;
